@@ -1,12 +1,8 @@
-# vue3-select2-component
-
-Source code in: [https://github.com/godbasin/vue-select2/tree/npm-publish-code-for-vue3](https://github.com/godbasin/vue-select2/tree/npm-publish-code-for-vue3).
-
-Demo code in: [https://github.com/godbasin/vue-select2/tree/demo-for-vue3-select-component](https://github.com/godbasin/vue-select2/tree/demo-for-vue3-select-component).
+# vue3-select2
 
 ## Related Versions
 
-vue3-select2-component is baseed on these plugins and libs(version):
+vue3-select2 is baseed on these plugins and libs(version):
 - [vue(>= 3.0-beta)](https://github.com/vuejs/vue-next)
 - [jQuery](https://jquery.com/)
 - [select2](https://select2.github.io/)
@@ -16,14 +12,13 @@ vue3-select2-component is baseed on these plugins and libs(version):
 ### Install
 ``` cmd
 // npm install
-npm install vue3-select2-component --save
+npm install vue3-select2 --save
 ```
 
 ### Use as component
 1. import as global component.
 ``` javascript
-// import Select2Component
-import Select2 from 'vue3-select2-component';
+import Select2 from 'vue3-select2';
 // Create a Vue application
 const app = Vue.createApp({})
 
@@ -34,7 +29,7 @@ app.component('Select2', Select2)
 2. import into a single component.
 ``` javascript
 // import Select2Component
-import Select2 from 'vue3-select2-component';
+import Select2 from 'vue3-select2';
 
 <template>
   <div>
@@ -84,8 +79,11 @@ export default {
   - placeholder attribute for select element
 - `id`
   - id attribute for select element
+- `id_field`: `other field name instead of id field`
 - `name`
   - name attribute for select element
+- `text_field`: `one or multiple field name to display as text. Example:name or ['name','phone']`
+- `text_sep`: `text seperator for multiple field name to display as text`
 - `settings`
   - configurable settings, see [Select2 options API](https://select2.org/configuration/options-api)
   - `setting`: `{ settingOption: value, settingOption: value }`
