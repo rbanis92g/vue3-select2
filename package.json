@@ -4,7 +4,7 @@
   "description": "select2 component in vue3.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/godbasin/vue-select2.git"
+    "url": "git+https://github.com/rbanis92g/vue3-select2.git"
   },
   "keywords": [
     "vue",
@@ -14,10 +14,10 @@
 "publishConfig": {
   "rbanis92g:registry": "https://npm.pkg.github.com"
 },
-  "author": "godbasin <wangbeishan@163.com> (https://github.com/godbasin)",
+  "author": "rbanis92g <rbanis92@gmail.com> (https://github.com/rbanis92g)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/godbasin/vue-select2/issues"
+    "url": "https://github.com/rbanis92g/vue3-select2/issues"
   },
   "main": "src/Select2.vue",
   "browser": {
@@ -33,7 +33,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "homepage": "https://github.com/godbasin/vue-select2#readme",
+  "homepage": "https://github.com/rbanis92g/vue3-select2#readme",
   "dependencies": {
     "jquery": "^3.3.1",
     "select2": "^4.0.7-rc.0"
