@@ -13,7 +13,7 @@
   ],
 "publishConfig": {
   "rbanis92g:registry": "https://npm.pkg.github.com"
-}
+},
   "author": "godbasin <wangbeishan@163.com> (https://github.com/godbasin)",
   "license": "MIT",
   "bugs": {
