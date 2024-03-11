@@ -31,6 +31,13 @@ app.component('Select2', Select2)
 // import Select2Component
 import Select2 from 'vue3-select2';
 
+Note: You need to import jQuery globally
+``` javascript
+// import jQuery globally before creating App
+import $ from 'jquery';
+window.$ = window.jQuery = $;
+import Select2 from 'vue3-select2'; // while using select2 as global component
+const app = Vue.createApp({})
 <template>
   <div>
     <Select2 v-model="myValue" :options="myOptions" :settings="{ settingOption: value, settingOption: value }" @change="myChangeEvent($event)" @select="mySelectEvent($event)" />
