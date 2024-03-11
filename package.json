@@ -1,6 +1,6 @@
 {
   "name": "vue3-select2",
-  "version": "0.1.9_b",
+  "version": "0.2",
   "description": "select2 component in vue3.",
   "repository": {
     "type": "git",
