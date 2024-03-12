@@ -23,6 +23,7 @@ import $ from 'jquery';
 window.$ = window.jQuery = $;
 import Select2 from 'vue3-select2'; // while using select2 as global component
 const app = Vue.createApp({})
+```
 1. import as global component.
 ``` javascript
 import Select2 from 'vue3-select2';
